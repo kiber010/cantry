@@ -1,0 +1,110 @@
+body{
+    background: darkgray;
+}
+
+header{
+    background: rgb(6, 247, 86);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+main{
+    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    width: 80%;
+}
+nav a:hover {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+main h1 {
+    text-align: center;
+}
+main li {
+    line: height 1.5em; ;
+}
+main p {
+    line-height: 1.5;
+}
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    max-width: 90%;
+}
+iframe{width: 100%;
+}
+
+.gallery {
+    display: inline-block;
+
+}
+.gallery_item {
+    margin: 5px;
+    border: 3px solid #333333;
+    border-radius: 5px;
+    float: left;
+    width: 240px;
+    background: #333333;
+}
+.gallery_item:hover {
+    border: 3px solid #0096ff;
+    transform: scale(1.3);
+}
+.gallery_item img {
+    width: 100%;
+    margin-top : 5px;
+    height: 200px;
+    object-fit: cover;
+}
+.gallery_item .desc {
+    padding: 15px;
+    text-align: center;
+    color: #0096ff;
+}
+.collage:hover {
+    transform: scale(1.2);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th {
+   border: 1px solid #ddd;
+   padding: 4px;
+}
+tr:nth-child(even){
+    background-color:#f2f2f2;
+}
+th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #0099ff;
+    color: white;
+}
+.card {
+    margin: 5px;
+    background:#e4dfdf;
+    border-radius: 20px;
+    padding: 10px;
+}
+.row {
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
